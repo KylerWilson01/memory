@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 #game {
   display: flex;
   justify-content: center;
@@ -16,11 +20,6 @@ html {
   height: 90vh;
   width: 90%;
   margin: auto;
-  border: 1px solid black;
-}
-
-#title {
-  font-family: sans-serif;
 }
 
 #board {
@@ -33,26 +32,26 @@ html {
 }
 
 .cards {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 .card {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   font-size: 25px;
   text-align: center;
   align-self: center;
   border: 1px solid black;
-  border-radius: 10px;
-  padding: 75px 0;
 }
 
 .hearts,
 .diams {
   color: red;
+  background: white;
 }
 
 .spades {
   color: black;
+  background: white;
 }

@@ -27,10 +27,10 @@ class Memory {
     this.display.hand.forEach(card => {
       board += `<div class="cards">
                   <div class="front card">
-                    Front 
+                  <img class="card" src="images/condiments.jpeg">
                   </div>
-                  <div class="back card ${card.suit}">
-                    ${card.number}&${card.suit};
+                  <div class="back card">
+                    <img class="card" src='${card.image}'>
                   </div> 
                 </div>
       `

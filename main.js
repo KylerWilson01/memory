@@ -23,10 +23,8 @@ $(document).ready(function () {
     console.log(num1, num2)
     setTimeout(() => {
       if (num1 === num2 && num1 !== '' && num2 !== '') {
-
         $(this).parent().removeClass('flipped').addClass('match')
         $(this).parent().siblings().find('+ .flipped').removeClass('flipped').addClass('match')
-
 
         $('.match').off('.flip')
 
@@ -41,7 +39,6 @@ $(document).ready(function () {
           $(this).parent().siblings().removeClass('flipped')
           $(this).parent().removeClass('flipped')
         }, 600)
-
 
         num1 = ''
         num2 = ''
