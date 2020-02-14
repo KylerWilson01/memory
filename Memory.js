@@ -26,13 +26,13 @@ class Memory {
 
     this.display.hand.forEach(card => {
       board += `<div class="cards">
-          <div class="front card"> 
-            Front
-          </div> 
-          <div class="back card ${card.suit}">
-          ${card.number}&${card.suit};
-          </div> 
-        </div>
+                  <div class="front card">
+                    Front 
+                  </div>
+                  <div class="back card ${card.suit}">
+                    ${card.number}&${card.suit};
+                  </div> 
+                </div>
       `
     })
 
