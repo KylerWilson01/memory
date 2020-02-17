@@ -30,9 +30,9 @@ $(document).ready(function () {
 
     setTimeout(() => {
       if (score === 9 && lives > 0) {
-        $('#game').html(`You Win!!! <button id='reset'> Start New Game</button>`)
+        $('#game').html(`You Win!!!`)
       } else if (lives <= 0) {
-        $('#game').html(`You Lost :( Try again <button id='reset'> Start New Game</button>`)
+        $('#game').html(`You Lost :( Try again`)
       }
     }, 1000)
 
